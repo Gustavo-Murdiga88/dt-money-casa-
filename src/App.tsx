@@ -25,6 +25,7 @@ export function App() {
             <Dashboard />
             <NewTransactions isOpen={isNewTransactionsModal}
             onRequestClose = { setIsNewTransactionsModalClose} />
+            
             <GlobalStyle />
         </TransactionsProvider>
     );
